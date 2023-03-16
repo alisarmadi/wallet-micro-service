@@ -1,9 +1,13 @@
 # Wallet micro-service
-This is a simple micro-service to keep all data of user wallet, and has two endpoints, one for to return the number of rows that match the filter criteria.
+This is a simple micro-service to keep all data of user wallet, and has two endpoints, 
+one for retrieving the balance of a specific user and other one for add money to a specific user's wallet.
 
 ## Installation
 For install this project do these steps:
 - Clone the project to your directory.
+```shell
+git clone https://github.com/alisarmadi/wallet-micro-service.git
+```
 - Copy .env.example to .env in the root directory (by default you don't need to change the contents of the file).
 - Copy .env.example to .env in the /src directory (by default you don't need to change the contents of the file).
 
