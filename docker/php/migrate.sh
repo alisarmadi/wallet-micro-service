@@ -5,6 +5,7 @@ composer install --ignore-platform-reqs
 composer dump-autoload
 php artisan db:create
 php artisan migrate --force
+php artisan db:seed
 
 php-fpm
 
