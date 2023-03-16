@@ -1,0 +1,4 @@
+/data
+/logs/nginx
+.env
+/.idea
