@@ -16,7 +16,7 @@ class Kernel extends ConsoleKernel
      *
      * @var array
      */
-    protected array $commands = [
+    protected $commands = [
         CreateDatabase::class
     ];
 
