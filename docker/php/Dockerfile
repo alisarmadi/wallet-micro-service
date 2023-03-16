@@ -24,4 +24,3 @@ COPY migrate.sh /tmp/
 RUN chmod +x /tmp/migrate.sh
 
 ENTRYPOINT ["/tmp/migrate.sh"]
-CMD ["/usr/bin/supervisord", "-n", "-c",  "/etc/supervisor/conf.d/supervisors.module.conf"]
